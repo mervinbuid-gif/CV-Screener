@@ -4,6 +4,7 @@
 // MODE: "Run Once for All Items"
 //
 // Updated JD: Senior Software Engineer (Test) — KL / Bangalore
+// Vendor variant: 5-10 years experience requirement
 // ═══════════════════════════════════════════════════════════════
 
 const driveData = $('01 · Drive Trigger').first().json;
@@ -53,12 +54,14 @@ You must follow these calibration rules strictly:
 
 As a Senior Software Engineer (Test), you are first and foremost a software engineer who specialises in building quality into systems through automation, tooling, and test architecture. You will design and own automated testing solutions across web, mobile, and backend services, working closely with product and engineering teams to ensure reliability, performance, and scalability. This role goes beyond test execution — you are expected to influence architecture, improve engineering practices, and raise the overall quality bar across teams.
 
+**Experience requirement:** 5-10 years of software engineering experience with strong focus on test automation.
+
 ## SCORING RUBRIC (100 points total)
 
 ### A. MUST-HAVE CRITERIA (70 points)
 
 1. **Software Engineering Experience Depth** (10 pts)
-   - 8+ years with clear progression, diverse projects, and strong SE fundamentals: 9-10 pts
+   - 8-10 years with clear progression, diverse projects, and strong SE fundamentals: 9-10 pts
    - 5-8 years with good breadth (meets JD requirement): 6-8 pts
    - 3-5 years (below JD minimum): 3-5 pts
    - <3 years: 0-2 pts
@@ -186,6 +189,7 @@ Respond ONLY in valid JSON. No preamble, no markdown backticks.
 ## SCORE SANITY CHECK (do this before responding)
 - Add up all individual scores. Does the total match total_score? If not, fix it.
 - Is the total above 85? Re-examine each score — did you give full marks without strong evidence? Reduce over-generous scores.
+- Is engineering_experience above 8? Candidates with 10+ years should score 9-10 only with clear progression and diverse project ownership. Candidates with 5-8 years who meet the JD minimum should score 6-8 max — do not over-reward tenure alone.
 - Is test_automation_expertise above 8? What SPECIFIC frameworks/tools/outcomes support this? Generic "wrote tests" = 4-5 max.
 - Is mobile_automation above 6? Is there SPECIFIC Appium evidence or just "mobile testing experience"?
 - Remember: summary uses | as separator between the 3 bullets (not newlines).`;
